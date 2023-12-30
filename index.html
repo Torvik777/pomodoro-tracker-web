@@ -18,13 +18,13 @@
             </div>
             <!-- component top block start-->
 
-            <img class="main-img" src="img/pomidora.svg" alt="">
-
+            <!-- <img class="main-img" src="img/pomidora.svg" alt=""> -->
+            <dotlottie-player class="main-img" src="./lottie/Frame.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
             <!-- component timer start-->
             <div class="timer-wrapper">
-             <span class="clock-fase">00</span>
-             <span class="clock-fase">:15</span>
-             <span class="clock-fase">:07</span>
+             <span class="clock-face hours">00</span>
+             <span class="clock-face minutes">:15</span>
+             <span class="clock-face seconds">:07</span>
             </div>
             <div class="timeline">
                 <span class="timeline__work-line"></span>
@@ -40,7 +40,22 @@
                 <button class="sound-control"></button>
             </div>
             <!-- component navigation end-->
-            
+            <!-- скрипт самой лутті -->
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+            <!-- скрипт налаштування -->
+            <script>
+                LottieInteractivity.create({
+                  player: '#firstLottie',
+                  mode: 'scroll',
+                  actions: [
+                    {
+                      visibility: [0,1],
+                      type: 'seek',
+                      frames: [0, 100],
+                    },
+                  ]
+                });
+              </script>
         </div>
     </main>
 </body>
