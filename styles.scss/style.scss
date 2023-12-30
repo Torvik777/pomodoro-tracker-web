@@ -26,12 +26,11 @@ body{
 }
 //<!-- component top block start-->
 .top-block{
-    
-    margin: auto;
+    // margin: auto;
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 h1{
     color: #FFF;
@@ -71,7 +70,7 @@ h1{
 .timeline{
     width: 95%;
     // height: 6px;
-    margin: auto;
+    // margin: auto;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
