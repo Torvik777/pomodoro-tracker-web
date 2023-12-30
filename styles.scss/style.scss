@@ -43,7 +43,7 @@ h1{
 .options-btn{
     width: 24px;
     height: 24px;
-    background-image: url('/img/setting-icon.svg');
+    background-image: url('../img/setting-icon.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,16 +112,16 @@ h1{
         background-repeat: no-repeat;
     }
     & .reset-timer{
-        background-image: url('/img/icon_update.svg');
+        background-image: url('../img/icon_update.svg');
     }
     & .start-timer{
-        background-image: url('/img/icon_play.svg');
+        background-image: url('../img/icon_play.svg');
         &:hover{
-            background-image: url('/img/icon_pause.svg');
+            background-image: url('../img/icon_pause.svg');
         }
     }
     & .sound-control{
-        background-image: url('/img/icon_notifications.svg');
+        background-image: url('../img/icon_notifications.svg');
     }
 }
 //<!-- component navigation end-->
